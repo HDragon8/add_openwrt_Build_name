@@ -23,6 +23,9 @@
   
  #修改zz-default-settings
  sed -i '$d' package/lean/default-settings/files/zzz-default-settings
+ 
  sed -i '$d' package/lean/default-settings/files/zzz-default-settings
+ 
  echo "echo \"xxx @ $(TZ=UTC-8 date "+%Y.%m.%d")\n" >> /etc/Compile_time" >> package/lean/default-settings/files/zzz-default-settings
+ 
  echo "exit 0" >> package/lean/default-settings/files/zzz-default-settings
