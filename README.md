@@ -20,8 +20,9 @@
 
  #添加翻译：
   sed -i '$a \#首页显示编译者\nmsgid "Compile_noodles"\nmsgstr "固件编译者"\n' package/lean/default-settings/po/zh-cn/default.po
+  
  #修改zz-default-settings
-  sed -i '$d' package/lean/default-settings/files/zzz-default-settings
-sed -i '$d' package/lean/default-settings/files/zzz-default-settings
-echo "echo \"xxx @ $(TZ=UTC-8 date "+%Y.%m.%d")\n" >> /etc/Compile_time" >> package/lean/default-settings/files/zzz-default-settings
-echo "exit 0" >> package/lean/default-settings/files/zzz-default-settings
+ sed -i '$d' package/lean/default-settings/files/zzz-default-settings
+ sed -i '$d' package/lean/default-settings/files/zzz-default-settings
+ echo "echo \"xxx @ $(TZ=UTC-8 date "+%Y.%m.%d")\n" >> /etc/Compile_time" >> package/lean/default-settings/files/zzz-default-settings
+ echo "exit 0" >> package/lean/default-settings/files/zzz-default-settings
