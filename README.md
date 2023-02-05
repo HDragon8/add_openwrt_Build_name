@@ -1,7 +1,7 @@
 # add_openwrt_Build_name
  添加编译者名字替换index
 
- Copy https://github.com/openwrtcompileshell/OpenwrtCompileScript添加天气
+ Copy https://github.com/openwrtcompileshell/OpenwrtCompileScript 添加天气
 
  1、x86-index.htm
 
